@@ -1,0 +1,39 @@
+.app__tableContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 12px;
+
+    .form-group {
+        width: 100px !important;
+    }
+
+    .app__userTable {
+        // width: 600px !important;
+    }
+
+    .action__container {
+        display: flex;
+        justify-content: center;
+
+        button {
+
+            margin: 5px;
+            font-size: 15px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .pagination__actions {
+        button {
+            margin: 5px;
+            padding: 2px 10px;
+            font-size: 18px;
+        }
+    }
+}

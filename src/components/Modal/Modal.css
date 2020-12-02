@@ -1,0 +1,25 @@
+.modal {
+  position: fixed;
+  top: 10%;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+  z-index: 1;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -30%;
+    opacity: 0;
+  }
+  to {
+    top: 10%;
+    opacity: 1;
+  }
+}
